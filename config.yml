@@ -276,8 +276,8 @@ epubmaker:
 texstyle: reviewmacro
 #
 # LaTeX用のdocumentclassを指定する
-# texdocumentclass: ["jsbook", "uplatex,oneside"]
-#
+texdocumentclass: ["jsbook", "b5j,twoside,openany,uplatex"]
+
 # LaTeX用のコマンドを指定する
 # texcommand: "uplatex"
 #
