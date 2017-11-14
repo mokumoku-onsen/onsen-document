@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ROOT=$(cd $(dirname $0)/;pwd)
+IMAGE=vvakame/review
+
+docker run --rm -v ${ROOT}:/work ${IMAGE} /bin/sh -c "cd /work && rake clean pdf"
