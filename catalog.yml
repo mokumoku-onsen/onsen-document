@@ -1,7 +1,8 @@
 PREDEF:
 
 CHAPS:
-  - onsen-document.re
+  - ch01.re
+  - ch02.re
 
 APPENDIX:
 
